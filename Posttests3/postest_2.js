@@ -74,11 +74,3 @@ $(function darkmode() {
 
 
 alert('Selamat datang');
-    var lagi = true;
-
-    while (lagi === true){
-        var nama = prompt('Input Nama');
-        alert('Haii ' + nama);
-
-        lagi = confirm('Coba lagi?')
-    }
