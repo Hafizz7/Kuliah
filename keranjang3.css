@@ -20,6 +20,7 @@ html, body{/*reset untuk margin dan padding*/
     /* background-color: rgba(106, 178, 207, 0.856); */
     
 }
+
 .semua1{
     transition: 0.6s;
     background-color:#1a191c;
@@ -161,7 +162,7 @@ html, body{/*reset untuk margin dan padding*/
     transform: translateX(23px)
 }
 .dark-mode{
-    background-color: black;
+    background-color:#1a191c;
     color: white;
 }
 
@@ -169,5 +170,18 @@ html, body{/*reset untuk margin dan padding*/
 
 /* CSS Keranjang */
 .keranjang{
-    display: flex;
+    border-radius: 40px;
+    margin-left: 60px;
+    width: 1200px;
+    background-color: rgba(152, 220, 247, 0.856);
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: 'Sarabun', sans-serif;
+}
+.keranjang tr th {    
+    padding-bottom: 10px;
+}
+.keranjang img{
+    padding-top: 10px;
+    height: 50px;
 }

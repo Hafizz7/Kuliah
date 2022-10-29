@@ -29,7 +29,7 @@ html, body{/*reset untuk margin dan padding*/
     padding-top: 2px;
     background-color: rgba(106, 178, 207, 0.856);
     width: 1350px;
-    height:680px;
+    height:780px;
 }
 .navbar{
     margin-left: 520px;
@@ -60,72 +60,6 @@ html, body{/*reset untuk margin dan padding*/
 .navbar li a:hover{
     border-bottom: 2px solid;
 }
-.tentang-saya{
-    
-    display: flex;
-    margin-top: 30px;
-}
-.tentang-saya div{
-    margin-left: 90px;
-}
-.foto{
-    width: 400px;
-    height:400px;
-    /* background-color: aqua; */
-}
-.foto-1 img{
-    margin-left: 0px;
-    height: 350px;
-}
-.saya-1{
-    margin-left: 19px;
-    font-size: 60px;
-    margin-top: 12px;
-    margin-bottom: 0;
-}
-.sosial{
-    
-    margin-left: 19px;
-    display: flex;
-}
-.sosial div{
-    border-radius: 900px;
-    margin-left: 20px;
-    background-color: transparent;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: -250px;
-    left: 560px;
-}
-.sosial div img{
-    box-shadow: 2px 10px 12px rgba(63, 63, 63, 0.23);
-    height: 60px;
-    border-radius: 900px;
-}
-.sosial img:hover{
-    transform: scale(1.1);
-}
-.isi-1{
-    margin-left: 19px;
-}
-.isi-2{
-    margin-left: 19px;
-    line-height: 30px;
-    margin-top: 130px;
-}
-.footer{
-    text-align: center;
-    margin-top: 100px;
-    background-color: rgb(56, 71, 121);
-    height: 40px;
-}
-.footer h3{
-    margin-top: 0;
-    position: relative;
-    top: 6px;
-}
-
 /* mode malam */
 .toggle {
     position: absolute;
@@ -164,10 +98,24 @@ html, body{/*reset untuk margin dan padding*/
     background-color: black;
     color: white;
 }
-
-
-
-/* CSS Keranjang */
-.keranjang{
-    display: flex;
+.jawa{
+    font-family: 'Poppins', sans-serif;
+    line-height: 34px;
+    margin-top: 10px;
+    font-size: 23px;
+    margin-left: 80px;
+    
+}
+.semua_php{
+    box-shadow: 8px 10px 12px rgba(0, 10, 1, 0.195);
+    height: 660px;
+    margin-left: 300px;
+    border-radius: 20px;
+    width: 800px;
+    margin-top: 20px;
+    background-color: rgba(62, 127, 153, 0.699);
+}
+.top_php img{
+    margin-left: 180px;
+    height: 400px;
 }
