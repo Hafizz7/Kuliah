@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{/*reset untuk margin dan padding*/
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(106, 178, 207, 0.856); */
+    
+}
+.semua{
+    padding: 0;
+    width: auto;
+    height:655px;
+    background-color: rgba(106, 178, 207, 0.856);
+}
+
+.nama{
+    border: none;
+    margin: 0px;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+}
+.login1{
+    border: none;
+    background: none;
+    font-size: 15px;
+    height: 40px;
+    width: 400px;
+    background-color: rgba(106, 178, 207, 0.856);
+    border-radius: 900px;
+    transition: transform .5s ease;
+}
+.login{
+    margin-top: 20%;
+    text-align: center;
+    align-items: center;
+}
+.login1:hover{
+    transform: scale(1.1);
+}
+.case{
+    margin-top: 5%;
+    box-shadow: 8px 10px 12px rgba(0, 10, 1, 0.195);
+    border-radius: 18px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    margin-left: 35%;
+    width: 500px;
+    height: 480px;
+    background-color: rgba(85, 33, 109, 0.411);
+}
+#username1{
+    margin-top: 140px;
+}
+::placeholder{
+    padding-left: 6px;
+    font-size: 16px;
+}
+
+input[type=text],input[type=password] {
+    padding: 1px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+  }
+input[type=text]:focus, input[type=password]:focus {
+    background-color: rgba(204, 198, 116, 0.781);
+  }
+input[type=submit]{
+    border-color: none;
+    background-color: white;
+}
+.name_pw{
+    color: rgba(0, 0, 0, 0.795);
+    font-family: 'Karla', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-left: 52px;
+    text-align: left;
+    font-size: 20px;
+}
+.login2{
+    font-family: 'Karla', sans-serif;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 120px;
+    /* margin-top: 10px; */
+}
+.login3{
+    font-family: 'Karla', sans-serif;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;   
+}
